@@ -1,0 +1,31 @@
+.todo-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40vw;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.todo-item-label {
+  font-size: 20px;
+ 
+  flex: 1;
+margin: 0;
+  font-weight: 600;
+  text-align: left;
+}
+.todo-item-buttons-container {
+  display: flex;
+}
+.todo-item-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  padding: 6px;
+  margin-left: 6px;
+}
